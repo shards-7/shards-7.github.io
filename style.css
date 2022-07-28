@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+* {
+    background-color: black;
+    color:white;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+body{margin-left: 8pt;}
+.red{color:red;}
+.blue{color:blue}
+.string{color:#0C6B14;}
+.date{color:#DFE512;}
+a.lost{color:#A43232;}
+a{color:#32A450;}
+#locatedMore{display:none;}
+#fyMore{display:none}
+a.ig{color:#A43272;}
+a.twitter{color:#369EC0;}
+a.telegram{color:#12B1E5}
