@@ -149,3 +149,8 @@ html, body {
   margin-top: 20px;
 }
 
+#parts {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

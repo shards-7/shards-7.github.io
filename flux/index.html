@@ -11,7 +11,7 @@
 
   </head>
 
-  <body>
+  <body id="parts">
 
     <div class="header">
 
@@ -44,7 +44,7 @@
 A Social media and communities app</div>
 
       <div>
-        <button id="download" class="fluxbtn">Download</button>
+        <button id="download" class="fluxbtn" onclick="downloadOnClick()">Download</button>
       </div>
 
       <div>
@@ -58,15 +58,8 @@ A Social media and communities app</div>
 
     </div>
 
-    <script>
-      function downloadOnClick() {
-        var x = document.getElementById("snackbar");
-        x.className = "show";
-        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 4000);
-      }
-      document.getElementById("download").addEventListener("click", downloadOnClick);
-    </script>
-
+  <script src="scripskkst.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   </body>
 
 </html>
