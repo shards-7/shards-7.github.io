@@ -147,6 +147,7 @@ html, body {
   padding-right: 30px;
   padding-top: 20px;
   margin-top: 20px;
+  position:relative;
 }
 
 #particles-js {
