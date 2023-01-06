@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #010a13;
+  text-align: center;
+  font-family: 'Poppins', Arial;
+  font-weight: 900;
+  color: #f5fcff;
+  overflow-x: hidden;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.header {
+  max-width: 1200px;
+  /*margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;*/
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #052544;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.fluxbtn {
+  border: 2px solid #63D3FF;
+  background-color: rgba(56, 215, 255, .1);
+  color: #63D3FF;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 300px;
+  font-family: "Poppins";
+  font-weight: 900;
+}
+
+.fluxbtn:hover {
+  background-color: rgba(56, 215, 255, .2);
+}
+
+.mockup {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+#snackbar {
+  font-weight: 300;
+  width: auto;
+  visibility: hidden;
+  margin-top: 10px;
+  background-color: rgba(255, 204, 0, .1);
+  text-align: center;
+  padding: 16px;
+  bottom: 30px;
+  font-size: 17px;
+  border: 2px solid #FFCC00;
+  border-radius: 8px;
+  color: #FFCC00;
+}
+
+#snackbar:hover {
+  background-color: rgba(255, 204, 0, .2);
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 3.5s;
+  animation: fadein 0.5s, fadeout 0.5s 3.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@media screen and (max-width: 500px) {
+  .fluxbtn {
+    width: 200px;
+  }
+  .description {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 246px) {
+  .fluxbtn {
+    width: auto;
+  }
+}
+
+.bodies {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
